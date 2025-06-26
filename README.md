@@ -30,26 +30,6 @@ A fully functional **Task Management** app built with **React (TypeScript)**, al
 
 ---
 
-## 📁 Project Structure
-task-management/
-├─ src/
-│ ├─ Components/
-│ │ └─ Task/
-│ │ └─ Dropdown/
-│ │ └─ SearchBar/
-│ └─ Pages/
-│ └─ HomePage/
-│ └─ AddTaskPage/
-│ └─ EditTaskPage/
-├─ TodoService.ts
-├─ App.tsx
-├─ main.tsx
-├─ index.html
-├─ .gitignore
-├─ package.json
-├─ tsconfig.json
-├─ README.md
-
 
 ## ⚙️ Getting Started
 
