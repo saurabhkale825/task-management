@@ -1,0 +1,9 @@
+
+.header{
+  width: calc(100% - 20px);
+  padding: 5px 10px;
+  height: 20%;
+  background-color: var(--secondary-bg);
+  color: #ffffff;
+  font-size: 20px;
+}

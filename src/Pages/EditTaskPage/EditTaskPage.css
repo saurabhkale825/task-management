@@ -1,0 +1,43 @@
+.edit-task-opage{
+    width: 100%;
+}
+
+.edit-task-page-container{
+      width: 90%;
+  margin: 3% auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.edit-task-status-dropdown-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dddddd;
+    margin-top: 3%;
+}
+
+.edit-task-status-dropdown-header-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.edit-task-status-indicator{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(139, 139, 139);
+    border-radius: 50%;
+    
+}
+
+.edit-task-status-option{
+    border: 1px solid #dddddd;
+    padding: 5px;
+    margin-top: 1%;
+    width: calc(100% - 10px);
+}
+

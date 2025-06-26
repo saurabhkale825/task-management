@@ -1,0 +1,55 @@
+.add-task-page {
+  width: 100%;
+}
+
+.add-task-page-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.add-task-page-back-btn {
+  cursor: pointer;
+}
+
+.add-task-page-container {
+  width: 90%;
+  margin: 3% auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.add-task-page-title-input {
+  width: 80vw;
+  padding: 5px;
+  border: 1px solid #dddddd;
+  outline: none;
+  display: block;
+  resize: none;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Jost", sans-serif;
+}
+
+.add-task-page-description-input {
+  width: 80vw;
+  min-height: 100px;
+  margin-top: 20px;
+  padding: 5px;
+  border: 1px solid #dddddd;
+  outline: none;
+  display: block;
+  resize: none;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Jost", sans-serif;
+}
+
+.add-task-page-container-button{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2% ;
+}

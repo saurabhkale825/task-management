@@ -1,0 +1,19 @@
+.dropdown {
+  width: 98%;
+  margin: 1% auto;
+}
+
+.dropdown-header {
+  width: calc(100% - 20px);
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f6f9;
+  border: 1px solid #f3f6f9;
+}
+
+.dropdown-header-title {
+  display: flex;
+  gap: 10px;
+}

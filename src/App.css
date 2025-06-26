@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sacramento&family=VT323&display=swap');
+
+:root {
+  --primary-bg: #ffffff;
+  --secondary-bg: #034ea2;
+  --small-font: 12px;
+  --medium-font: 16px;
+  --large-font: 20px;
+   font-family: "Jost", sans-serif;
+   width: 100vw;
+}
+
+.header{
+  width: calc(100% - 20px);
+  padding: 5px 10px;
+  height: 20%;
+  background-color: var(--secondary-bg);
+  color: #ffffff;
+  font-size: 20px;
+}
+
+
+.primary-button {
+  min-width:10%;
+  height: 40px;
+  border: none;
+  background-color: var(--secondary-bg);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.secondary-button {
+  min-width:10%;
+  height: 40px;
+  border: none;
+  background-color: var(--primary-bg);
+  color: var(--secondary-bg);
+  font-size: var(--small-font);
+  font-weight: 400;
+  border: 1px solid var(--secondary-bg);
+  border-radius: 4px;
+  cursor: pointer;
+
+}
