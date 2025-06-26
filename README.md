@@ -1,69 +1,54 @@
-# React + TypeScript + Vite
+Task Management App
+A fully functional Task Management app built with React (TypeScript), allowing users to create, edit, delete, and search for tasks. The app features status-based filtering (Pending, In Progress, Completed) and includes animations for a clean and interactive user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌟 Features
+✅ CRUD Operations: Create, Edit, and Delete tasks.
+✅ Search: Quickly locate tasks by title.
+✅ Categorization: Tasks grouped by status (Pending, In Progress, Completed).
+✅ Animated Deletions: Smooth slide-out animation when deleting a task.
+✅ User-Friendly Status Selection: Choose status from a drop-down menu.
+✅ Edit: Update task details such as title, description, status, and date.
+✅ Responsive Design: Works across desktop and mobile devices.
+✅ Accessible: Includes ARIA labels and keyboard navigation considerations.
 
-Currently, two official plugins are available:
+⚡️ Tech Stack
+Framework: React
+Language: TypeScript
+UI Framework: Material-UI
+Routing: React Router
+State Management: React Hooks (useState, useEffect)
+Build Tool: Vite / CRA
+CSS: Modular, plain CSS
+Animations: Pure CSS (slide-in / slide-out)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+task-management/
+├─ src/
+│  ├─ Components/
+│  │  ├─ Task/
+│  │  └─ Dropdown/
+│  │  └─ SearchBar/
+│  └─ Pages/
+│     └─ HomePage/
+│     └─ AddTaskPage/
+│     └─ EditTaskPage/
+├─ TodoService.ts
+├─ App.tsx
+├─ main.tsx
+├─ index.html
+├─ .gitignore
+├─ package.json
+├─ tsconfig.json
+├─ README.md
 
-## Expanding the ESLint configuration
+⚙️ Getting Started
+Prerequisites
+Node.js >= 16
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+npm or yarn
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Install Dependencies
+npm install
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Run the App
+npm run dev
+Open your browser and navigate to http://localhost:5173 (or the port shown in the terminal).
